@@ -1,0 +1,282 @@
+/* --------------------------- */
+/* ---------- FONTS ---------- */
+/* --------------------------- */
+@font-face {
+  font-family: 'BlackJackSerif';
+  src: url('../fonts/black-jack-serif.ttf');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/roboto-bold.ttf');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/roboto-light.ttf');
+  font-weight: 300;
+}
+
+
+/* -------------------------------- */
+/* ---------- COMPONENTS ---------- */
+/* -------------------------------- */
+body {
+	font-family: Roboto;
+	font-weight: 300;
+}
+section {
+	padding: 90px 0px;
+}
+.col-md-6 {
+	padding: 0px;
+}
+.btn {
+	color: #fff;
+	font-family: Roboto;
+	font-weight: 700;
+	font-size: 18px;
+	margin-top: 30px;
+	padding: 16px 28px;
+	text-transform: uppercase;
+}
+.btn:hover {
+	color: #fff;
+}
+p {
+	font-family: Roboto;
+	font-weight: 300;
+	margin-bottom: 0px;
+}
+.bg-grey {
+	background-color: #e6e7e6;
+}
+.bg-white {
+	display: flex;
+	background-color: #fff;
+	padding: 50px;
+}
+.bg-white h3 {
+	margin-top: 0px;
+}
+.menu-img img, .contact-img img {
+	height: auto;
+	width: 100%;
+}
+form {
+	margin-left: auto;
+	margin-right: auto;
+}
+.form-inline input {
+	height: 60px;
+	text-transform: uppercase;
+}
+.form-inline button {
+	margin-left: 15px;
+	margin-top: 0px;
+}
+
+/* Responsive */
+@media screen and (max-width: 992px) {
+	section {
+		font-size: 14px;
+		padding: 70px 0px;
+	}
+	.responsive-secondary {
+		margin-top: 25px;
+	}
+	.btn {
+		margin-top: 15px;
+		padding: 14px 22px;
+	}
+	.bg-white {
+		padding: 25px;
+	}
+}
+@media screen and (max-width: 575px) {
+	.form-inline button {
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 15px;
+	}
+}
+
+
+/* --------------------------- */
+/* ---------- TITLE ---------- */
+/* --------------------------- */
+h1 {
+	color: #fff;
+	font-family: BlackJackSerif;
+	font-weight: 400;
+	font-size: 110px;
+	line-height: 70px;
+}
+h3 {
+	color: #000;
+	font-family: Roboto;
+	font-weight: 700;
+	font-size: 20px;
+	margin-bottom: 10px;
+	margin-top: 25px;
+}
+
+/* Responsive */
+@media screen and (max-width: 992px) {
+	h1 {
+		font-size: 75px;
+		line-height: 50px;
+	}
+	h3 {
+		font-size: 18px;
+		margin-top: 12px;
+	}
+}
+
+
+/* ---------------------------- */
+/* ---------- NAVBAR ---------- */
+/* ---------------------------- */
+.navbar {
+	background-color: transparent;
+	font-family: Roboto;
+	font-weight: 700;
+	font-size: 16px;
+	padding: 20px;
+	text-transform: uppercase;
+}
+.navbar img {
+	height: 30px;
+	width: auto;
+}
+.navbar-nav {
+	margin-left: auto!important;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    padding: 8px 18px;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+ 	color: #ffc107;
+    transition: all 0.5s ease-in;
+}
+.follow .navbar {
+	background-color: #000;
+	transition: all 0.5s ease-in-out;
+}
+
+/* Responsive */
+@media screen and (max-width: 767px) {
+	.navbar-nav {
+		background-color: #000;
+		margin-top: 10px;
+		padding: 15px 0px;
+	}
+	.navbar-toggler {
+		border: none;
+	}
+}
+
+
+/* ---------------------------- */
+/* ---------- BANNER ---------- */
+/* ---------------------------- */
+#banner {
+	background-position: center;
+  	background-size: cover;
+  	height: 100vh;
+}
+#header-content {
+	color: #fff;
+	font-size: 28px;
+	margin-top: 50vh; 
+    transform: translateY(-50%);
+}
+
+/* Responsive */
+@media screen and (max-width: 992px) {
+	#header-content {
+		font-size: 20px;
+	}
+}
+
+
+/* ------------------------------- */
+/* ---------- EXPERTISE ---------- */
+/* ------------------------------- */
+#expertise img {
+	height: 70px;
+	width: auto;
+}
+
+/* Responsive */
+@media screen and (max-width: 992px) {
+	#expertise img {
+		height: 60px;
+	}
+}
+
+
+/* -------------------------- */
+/* ---------- MENU ---------- */
+/* -------------------------- */
+.description {
+	margin-bottom: auto!important;
+ 	margin-top: auto!important;
+}
+.price {
+	color: #ffc107;
+	font-weight: 700;
+	margin-top: 6px;
+}
+
+
+/* ------------------------------- */
+/* ---------- OPEN-HOUR ---------- */
+/* ------------------------------- */
+#open-hour {
+	background-color: #ffc107;
+	color: #fff;
+}
+#open-hour h3 {
+	color: #fff;
+	margin-top: 0px;
+}
+
+
+/* ---------------------------- */
+/* ---------- FOOTER ---------- */
+/* ---------------------------- */
+footer {
+	background-color: #000;
+	color: #fff;
+	padding: 75px 0;
+}
+footer a {
+	margin-left: 12px;
+	margin-right: 12px;
+}
+footer img {
+	height: 60px;
+	width: auto;
+}
+footer p {
+	margin-top: 25px;
+}
+
+/* Responsive */
+@media screen and (max-width: 992px) {
+	footer {
+		padding: 55px;
+	}
+	footer a {
+		margin-left: 6px;
+		margin-right: 6px;
+	}
+	footer img {
+		height: 48px;
+	}
+	footer p {
+		margin-top: 15px;
+	}
+}
