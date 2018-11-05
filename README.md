@@ -11,4 +11,4 @@ Boostrap 4 and Jquery are required.
 <a href="http://www.luc-aldebert.com/assets/files/projects/smoked/index.html"><img src="http://www.luc-aldebert.com/projects/smoked/img/github-screen.jpg" alt=""/></a>
 
 <h3>Licence</h3>
-Smoked is under MIT License. If you need more information <a href="https://github.com/LucAld/smoked/blob/add-license-1/License">MIT License</a>.
+Smoked is under MIT License. If you need more information <a href="https://github.com/LucAld/smoked/blob/master/LICENSE">MIT License</a>.
